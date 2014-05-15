@@ -55,6 +55,9 @@ You can add and remove tags by calling the addTag() and removeTag() functions.
 	$('#tags').addTag('foo');
 	$('#tags').removeTag('bar');
 
+You can clear all tags by calling the removeTags() function.
+    $('#tags').removeTags();
+
 You can import a list of tags using the importTags() function...
 
 	$('#tags').importTags('foo,bar,baz');
